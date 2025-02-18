@@ -1,10 +1,5 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import { ref } from "vue";
-import { useNotesStore } from "./stores/useNotesStore";
-import NoteForm from "./components/NoteForm.vue";
-import NoteList from "./components/NoteList.vue";
-import type { Note } from "./stores/useNotesStore";
-import NotesView from "./components/NotesView.vue";
 
 const store = useNotesStore();
 const notes = store.notes;
@@ -40,9 +35,9 @@ const deleteNote = (id: string) => {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
   <div class="container mx-auto p-6 ">
-    <h1 class="text-2xl font-bold mb-4 lexend">Notas</h1>
     
-    <NotesView />
+    <!-- <NotesView /> -->
+    <NotasView/>
   </div>
 </template>
 
@@ -54,4 +49,4 @@ const deleteNote = (id: string) => {
   font-weight: 400;
   font-style: normal;
 }
-</style>
+</style> -->
